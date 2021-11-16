@@ -70,7 +70,7 @@ app.get('/', (req, res) => {
 })
 
 
-app.use(express.static('static'))
+app.use(express.static('https://cesarmayta.github.io/paginapersonalheroku/static/'))
 
 app.listen(port, () => {
   console.log(`servidor en  http://localhost:${port}`)
